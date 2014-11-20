@@ -1,6 +1,6 @@
 import urllib
 
-f=open("project/stations-trains.txt","w")
+f=open("project/stations_it.txt","w")
 
 for i in range (0,40000):
     u="http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/cercaNumeroTrenoTrenoAutocomplete/"+str(i)

@@ -12,7 +12,7 @@ class Database:
 
     host = 'localhost'
     user = 'root'
-    password = 'wemove_odnsom1ra'
+    password = ''
     db = 'OpenDelays'
 
     def __init__(self):

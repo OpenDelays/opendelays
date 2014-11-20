@@ -13,7 +13,7 @@ class Database:
 
     host = 'localhost'
     user = 'root'
-    password = 'wemove_odnsom1ra'
+    password = ''
     db = 'OpenDelays'
 
     def __init__(self):
@@ -61,7 +61,7 @@ def openUrl(station):
 
 def getStations():
     l_stations=[];station="";
-    f=open("project/stations-trains.txt","r")
+    f=open("project/stations_it.txt","r")
     stationsF=f.read()
     stationsF=stationsF.replace("\n","")
     sizef=len(stationsF)
